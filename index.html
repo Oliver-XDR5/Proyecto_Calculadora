@@ -42,22 +42,36 @@
     </nav>
     <br>
     <h1 class="Titulo_h1">Calculadora</h1>
-    <input type="text" id="Pantalla" readonly>
     <br>
-    <button onclick="Agregar(7)">7</button>
-    <button onclick="Agregar(8)">8</button>
-    <button onclick="Agregar(9)">9</button>
-    <button onclick="Agregar('*')">x</button>
     <br>
-    <button onclick="Agregar(4)">4</button>
-    <button onclick="Agregar(5)">5</button>
-    <button onclick="Agregar(6)">6</button>
-    <button onclick="Agregar('-')">-</button>
-    <br>
-    <button onclick="Agregar(1)">1</button>
-    <button onclick="Agregar(2)">2</button>
-    <button onclick="Agregar(3)">3</button>
-    <button onclick="Agregar('+')">+</button>
+    <div class="Div_principal">
+        <div><input type="text" id="Pantalla" readonly></div>
+        <br>
+        <div class="Eliminar1"><button onclick="Eliminar()">CE</button></div>
+        <div class="Eliminar2"><button onclick="Eliminar()">C</button></div>
+        <div class="Borrar"><button onclick="Borrar()"><img src="imagenes para proyecto/Borrar Calculadora.png" alt="Borrador de calculadora" width="20px" height="25px"></button></div>
+        <div class="Division"><button onclick="Agregar('/')">÷</button></div>
+        <br>
+        <div class="Siete"><button onclick="Agregar(7)">7</button></div>
+        <div class="Ocho"><button onclick="Agregar(8)">8</button></div>
+        <div class="Nueve"><button onclick="Agregar(9)">9</button></div>
+        <div class="Multiplicar"><button onclick="Agregar('*')">x</button></div>
+        <br>
+        <div class="Cuatro"><button onclick="Agregar(4)">4</button></div>
+        <div class="Cinco"><button onclick="Agregar(5)">5</button></div>
+        <div class="Seis"><button onclick="Agregar(6)">6</button></div>
+        <div class="Resta"><button onclick="Agregar('-')">-</button></div>
+        <br>
+        <div class="Uno"><button onclick="Agregar(1)">1</button></div>
+        <div class="Dos"><button onclick="Agregar(2)">2</button></div>
+        <div class="Tres"><button onclick="Agregar(3)">3</button></div>
+        <div class="Suma"><button onclick="Agregar('+')">+</button></div>
+        <br>
+        <div class="Porcentaje"><button onclick="Agregar('%')">%</button></div>
+        <div class="Cero"><button onclick="Agregar(0)">0</button></div>
+        <div class="Punto"><button onclick="Agregar('.')">.</button></div>
+        <div class="Igual"><button onclick="Calcular()">=</button></div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>

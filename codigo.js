@@ -1,7 +1,17 @@
-let pantalla = document.getElementById(pantalla);
+let pantalla = document.getElementById("Pantalla");
 
 function Agregar(dato){
-    pantalla.value += dato;
+    Pantalla.value += dato;
 }
 
-function 
+function Eliminar(){
+    Pantalla.value = "";
+}
+
+function Borrar(dato){
+    Pantalla.value = dato = " ";
+}
+
+function Calcular(){
+    Pantalla.value = eval(Pantalla.value)
+}
