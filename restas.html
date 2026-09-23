@@ -41,8 +41,9 @@
         </div>
     </nav>
 
-    <h1 class="Titulo_Restas">Restas</h1>
-    <p>Las restas, al igual que las sumas, son uno de los principales pilares de la mátematica, nos permite quitarle números a otros, nos permite 
+    <div class="Principal_Restas">
+        <h1 class="Titulo_Restas">Restas</h1>
+        <p class="Info_Restas">Las restas, al igual que las sumas, son uno de los principales pilares de la mátematica, nos permite quitarle números a otros, nos permite 
         hacer operaciones fáciles y operaciones difíciles por igual, nos permite saber cuanto debemos quitar para alcanzar los resultados deseados 
         y es importante para la división y multiplicación por la ley de signos. La resta o sustracción es una operación aritmética básica que consiste 
         en quitar o eliminar una cantidad de otra para obtener un resultado llamado diferencia o resto.Puedes leer el artículo completo en la Resta de 
@@ -50,6 +51,77 @@
         Diferencia (o resto): El resultado final de la operación. Signo menos (-): El símbolo que representa la operación. Propiedades principales 
         Anticonmutativa: Cambiar el orden de los números cambia el signo del resultado (a - b = -(b - a)).No asociativa: El orden en el que agrupas las 
         restas altera el resultado final. Neutro: Restar cero (0) a cualquier número no modifica su valor.</p>
+    </div>
+    <br>
+    <br>
+
+    <div id="carouselExampleIndicators" class="carousel slide" style="width: 950px; height: 500px; center: center; margin: auto;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes para proyecto/Sumas1.jpg" class="d-block w-100" alt="Imagen de restas" height="500px">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes para proyecto/Sumas2.jpg" class="d-block w-100" alt="Imagen de restas" height="500px">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes para proyecto/Sumas3.jpg" class="d-block w-100" alt="Imagen de restas" height="500px">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <br>
+    <br>
+    <div class="Div_principal_Sumas">
+        <div class="input1"><input type="text" id="Pantalla" readonly></div>
+        <br>
+        <Div class="Div_caja2">
+            <button class="Siete" onclick="Agregar(7)">7</button>
+            <button class="Ocho" onclick="Agregar(8)">8</button>
+            <button class="Nueve" onclick="Agregar(9)">9</button>
+            <button class="Eliminar1" onclick="Eliminar()">CE</button>
+        </Div>
+        <br>
+        <div class="Div_caja3">
+            <button class="Cuatro" onclick="Agregar(4)">4</button>
+            <button class="Cinco" onclick="Agregar(5)">5</button>
+            <button class="Seis" onclick="Agregar(6)">6</button>
+            <button class="Eliminar2" onclick="Eliminar()">C</button>
+        </div>
+        <br>
+        <div class="Div_caja4">
+            <button class="Uno" onclick="Agregar(1)">1</button>
+            <button class="Dos" onclick="Agregar(2)">2</button>
+            <button class="Tres" onclick="Agregar(3)">3</button>
+            <button class="Restar" onclick="Agregar('-')">-</button>
+        </div>
+        <br>
+        <div class="Div_caja5">
+            <button class="Borrar" onclick="Borrar()"><img class="Imagen_borrar"
+                    src="imagenes para proyecto/Borrar Calculadora.png" alt="Borrador de calculadora" width="20px"
+                    height="25px"></button>
+            <button class="Cero" onclick="Agregar(0)">0</button>
+            <button class="Punto" onclick="Agregar('.')">.</button>
+            <button class="Calcular" onclick="Calcular()">=</button>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -162,3 +162,63 @@ button:hover {
 button:active {
     transform: translateY(0);
 }
+.Div_principal_Sumas{
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    margin-bottom: 18.19%;
+    background-color:lightslategrey;
+    height: 400px;
+    border-color: #1e293b;
+}
+.Principal_Sumas{
+    margin: 20px;
+}
+.Titulo_Sumas{
+    text-align: center;
+    font-size: 60px;
+    color: yellow;
+}
+.Info_Sumas{
+    color: #000000;
+    font-weight: bolder;
+    text-align: justify;
+}
+.Principal_Restas{
+    margin: 20px;
+}
+.Titulo_Restas{
+    text-align: center;
+    font-size: 60px;
+    color: orange;
+}
+.Info_Restas{
+    color: #000000;
+    font-weight: bolder;
+    text-align: justify;
+}
+.Principal_Multiplicacion{
+    margin: 20px;
+}
+.Titulo_Multiplicacion{
+    text-align: center;
+    font-size: 60px;
+    color: orangered;
+}
+.Info_Multiplicación{
+    color: #000000;
+    font-weight: bolder;
+    text-align: justify;
+}
+.Principal_Division{
+    margin: 20px;
+}
+.Titulo_Division{
+    text-align: center;
+    font-size: 60px;
+    color: gold;
+}
+.Info_Division{
+    color: #000000;
+    font-weight: bolder;
+    text-align: justify;
+}

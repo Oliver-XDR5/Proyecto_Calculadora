@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos.css">
     <script src="codigo.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg bg-success">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="imagenes para proyecto/Calculadora principal.png" alt="Logo de calculadora" width="25px" height="25px">
+                <img src="imagenes para proyecto/Calculadora principal.png" alt="Logo de calculadora" width="25px"
+                    height="25px">
                 <span>Matemáticas</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -42,19 +46,102 @@
     </nav>
 
     <div class="Principal_Sumas">
-        <h1 class="Titulo_sumas">Sumas</h1>
-        <p class="Info_Sumas">Las sumas son una de las bases de las matemáticas, incluso de las matemáticas avanzadas, ya que sin las sumas,
-            no se podría realizar prácticamente ninguna operación. El ser humano empezó a sumar de forma intuitiva durante el Neolítico, 
-            aproximadamente entre el año 8000 a. C. y el 5000 a. C., coincidiendo con el nacimiento de la agricultura y la ganadería. Al 
-            comenzar a acumular cosechas y criar animales, las personas tuvieron la necesidad de calcular cuántas provisiones ganaban o 
-            perdían según la época del año.La evolución de la suma pasó por varias etapas históricas clave:Prehistoria (>20,000 a. C.): 
-            Antes de inventar la suma formal, los primeros humanos utilizaban "marcas de conteo" en palos o huesos (como el famoso Hueso de Ishango) 
-            para llevar el control de cantidades físicas.Primeros registros escritos (c. 3000 a. C.): Las civilizaciones de Sumeria, Babilonia y el 
-            Antiguo Egipto plasmaron las primeras operaciones aritméticas en tablillas de arcilla y papiros comerciales. Los egipcios ya sumaban de 
-            forma sistemática números enteros y fraccionarios.Formalización del símbolo (+): Aunque la humanidad llevaba milenios sumando, el símbolo 
-            moderno "+" no se inventó hasta el año 1489 d. C., cuando el matemático alemán Johannes Widmann lo usó por primera vez en un libro de comercio 
+        <h1 class="Titulo_Sumas">Sumas</h1>
+        <p class="Info_Sumas">Las sumas son una de las bases de las matemáticas, incluso de las matemáticas avanzadas,
+            ya que sin las sumas,
+            no se podría realizar prácticamente ninguna operación. El ser humano empezó a sumar de forma intuitiva
+            durante el Neolítico,
+            aproximadamente entre el año 8000 a. C. y el 5000 a. C., coincidiendo con el nacimiento de la agricultura y
+            la ganadería. Al
+            comenzar a acumular cosechas y criar animales, las personas tuvieron la necesidad de calcular cuántas
+            provisiones ganaban o
+            perdían según la época del año.La evolución de la suma pasó por varias etapas históricas clave:Prehistoria
+            (>20,000 a. C.):
+            Antes de inventar la suma formal, los primeros humanos utilizaban "marcas de conteo" en palos o huesos (como
+            el famoso Hueso de Ishango)
+            para llevar el control de cantidades físicas.Primeros registros escritos (c. 3000 a. C.): Las civilizaciones
+            de Sumeria, Babilonia y el
+            Antiguo Egipto plasmaron las primeras operaciones aritméticas en tablillas de arcilla y papiros comerciales.
+            Los egipcios ya sumaban de
+            forma sistemática números enteros y fraccionarios.Formalización del símbolo (+): Aunque la humanidad llevaba
+            milenios sumando, el símbolo
+            moderno "+" no se inventó hasta el año 1489 d. C., cuando el matemático alemán Johannes Widmann lo usó por
+            primera vez en un libro de comercio
             impreso. El símbolo proviene de la abreviatura de la palabra latina "et" (que significa "y").</p>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <br>
+    <br>
+
+    <div id="carouselExampleIndicators" class="carousel slide" style="width: 950px; height: 500px; center: center; margin: auto;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes para proyecto/Sumas1.jpg" class="d-block w-100" alt="Imagen de sumas" height="500px">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes para proyecto/Sumas2.jpg" class="d-block w-100" alt="Imagen de sumas" height="500px">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes para proyecto/Sumas3.jpg" class="d-block w-100" alt="Imagen de sumas" height="500px">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <br>
+    <br>
+    <div class="Div_principal_Sumas">
+        <div class="input1"><input type="text" id="Pantalla" readonly></div>
+        <br>
+        <Div class="Div_caja2">
+            <button class="Siete" onclick="Agregar(7)">7</button>
+            <button class="Ocho" onclick="Agregar(8)">8</button>
+            <button class="Nueve" onclick="Agregar(9)">9</button>
+            <button class="Eliminar1" onclick="Eliminar()">CE</button>
+        </Div>
+        <br>
+        <div class="Div_caja3">
+            <button class="Cuatro" onclick="Agregar(4)">4</button>
+            <button class="Cinco" onclick="Agregar(5)">5</button>
+            <button class="Seis" onclick="Agregar(6)">6</button>
+            <button class="Eliminar2" onclick="Eliminar()">C</button>
+        </div>
+        <br>
+        <div class="Div_caja4">
+            <button class="Uno" onclick="Agregar(1)">1</button>
+            <button class="Dos" onclick="Agregar(2)">2</button>
+            <button class="Tres" onclick="Agregar(3)">3</button>
+            <button class="Sumar" onclick="Agregar('+')">+</button>
+        </div>
+        <br>
+        <div class="Div_caja5">
+            <button class="Borrar" onclick="Borrar()"><img class="Imagen_borrar"
+                    src="imagenes para proyecto/Borrar Calculadora.png" alt="Borrador de calculadora" width="20px"
+                    height="25px"></button>
+            <button class="Cero" onclick="Agregar(0)">0</button>
+            <button class="Punto" onclick="Agregar('.')">.</button>
+            <button class="Calcular" onclick="Calcular()">=</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
